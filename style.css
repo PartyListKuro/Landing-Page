@@ -1,0 +1,147 @@
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+
+}
+ul{
+    display:flex;
+    gap:8px;
+    list-style: none;
+}
+.header{
+    display:flex;
+    color:#f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: space-between;
+    padding:0px 100px 0px 100px;
+    
+}
+.Main{
+    height: 400px;
+    display:flex;
+    color:#f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+    gap:16px;
+    flex-wrap: wrap;
+
+}
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color:#f9faf8;
+}
+.text{
+    color:#f9faf8;
+    font-size: 18px;
+}
+.signup{
+    padding: 8px;
+    border: 2px white;
+}
+.mainpic{
+    width: 600px;
+    height: auto;
+}
+.img{
+    width: 200px;
+    height: 200px;
+}
+
+.pictitle{
+    font-weight: bold;
+    font-style: italic;
+    font-size: large;
+}
+
+.random-pic{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    flex-direction: column;
+}
+.container{
+    display:flex;
+    flex-direction: column;
+    width:150px;
+    color:black;
+    justify-content: center;
+    align-items: center;
+}
+.imgcontainer{
+    display: flex;
+    gap:160px;
+    justify-content: center;
+    align-items: center;
+
+}
+.pictitle{
+    margin-bottom: 60px;
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+
+}
+
+.random-text{
+    height:400px;
+    background-color: #e5e7eb;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quote{
+    width:800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+}
+.by{
+    padding-left: 350px;
+    font-weight: bold;
+    font-size: 22px;
+}
+.logo{
+    height:auto;
+    width:100px;
+}
+.sign-up{
+    height: 300px;
+    display:flex;
+    color:#f9faf8;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+
+}
+.footer{
+    display:flex;
+    height:100px;
+    color:#f9faf8;
+    background-color: #1f2937;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+.call{
+    display: flex;
+    height:150px;
+    gap:20px;
+    width:900px;
+    background-color: #3882f6;    
+    align-items: center;
+    justify-content: center;
+}
